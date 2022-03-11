@@ -1,0 +1,41 @@
+.container{
+    width: 40% !important;
+    margin: auto !important;
+    margin-top: 30px !important;
+}
+.profile{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important; 
+}
+a i{
+    color: black !important;
+}
+.major{
+    background-color: #f1f1f0 !important;
+    border-radius: 30px;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px;
+}
+.flo:hover{
+    transform: translateY(-10px);
+}
+
+
+@media screen and (max-width: 968px) {
+    .container{
+        width: 90% !important;
+        margin: auto !important;
+    }
+   .profil{
+       display: flex !important;
+       flex-direction: column-reverse !important;
+   }
+   .profil img{
+    align-self: center;
+       margin-left: 28%;
+   }
+}
